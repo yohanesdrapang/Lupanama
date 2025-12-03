@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMK Project - HCI Assignment</title>
+  <link rel="stylesheet" href="stye.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="logo">KELOMPOK 5</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#problem">Problem Identification</a></li>
+        <li><a href="#user-research">User Research</a></li>
+        <li><a href="#ursd">URSD</a></li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#evaluation">Evaluation</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section (Fullscreen) -->
+  <section id="home" class="section home">
+    <div class="home-content">
+      <h1>Welcome to Group 13 IMK Final Assignment!</h1>
+      <a href="#problem" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Problem Identification -->
+  <section id="problem" class="section">
+    <div class="container">
+      <h2>Problem Identification</h2>
+      <p>Menjelaskan dan mengidentifikasi permasalahan yang ditemukan.</p>
+      <br>
+        Permasalahan Antrian di Fasilitas Kesehatan
+        <br><br>
+        <strong>1. Permasalahan:</strong>
+        <br>Di lingkungan sekitar, khususnya pada fasilitas kesehatan seperti puskesmas dan rumah sakit, terdapat beberapa permasalahan utama yang sering dialami pasien maupun tenaga medis, yaitu:
+        <br>
+            <ul>
+            <li>Pendaftaran manual masih menjadi cara utama, sehingga pasien harus datang lebih awal hanya untuk mendapatkan nomor antrian.</li>
+            <li>Antrian panjang sering terjadi dan membuat pasien membuang banyak waktu.</li>
+            <li>Informasi mengenai jadwal dokter dan ketersediaan poli seringkali tidak jelas, menyebabkan kebingungan di kalangan pasien.</li>
+            <li>Kerumunan di ruang tunggu terjadi pada jam sibuk, yang berisiko menimbulkan ketidaknyamanan dan masalah kesehatan.</li>
+            <li>Proses administrasi yang masih manual membuat pelayanan menjadi lambat dan kurang efisien.</li>
+            </ul>
+        </br>   
+        <strong>2. Solusi Permasalahan dengan Teknologi Informasi:</strong>
+        <br>Untuk mengatasi masalah tersebut, dapat diterapkan Sistem Pendaftaran Online & Monitoring Antrian berbasis aplikasi atau website.
+        <br><br>
+        <strong>a. Fitur Sistem:</strong>
+        <ul>
+          <li>Pendaftaran Pasien Online</li>
+          <li>Informasi Jadwal Dokter dan Poli</li>
+          <li>Nomor Antrian Digital</li>
+          <li>Notifikasi Otomatis</li>
+          <li>Integrasi Data Pasien</li>
+        </ul>
+        <strong>b. Manfaat Sistem:</strong>
+        <ul>
+          <li>Mengurangi kerumunan dan antrian panjang.</li>
+          <li>Pasien menjadi lebih nyaman dan hemat waktu.</li>
+          <li>Petugas medis lebih mudah dalam mengatur jadwal pelayanan.</li>
+          <li>Pelayanan kesehatan menjadi lebih efisien dan terstruktur.</li>
+        </ul>
+        <strong>3. Kesimpulan:</strong>
+        <br>Permasalahan antrian panjang di fasilitas kesehatan disebabkan oleh sistem pendaftaran manual, informasi jadwal dokter yang tidak jelas, dan keterbatasan administrasi. Dengan penerapan sistem online, masalah ini dapat diselesaikan.
+      </p>
+    </div>
+  </section>
+
+  <!-- User Research -->
+  <section id="user-research" class="section">
+    <div class="container">
+      <h2>User Research</h2>
+
+      <h3>Rencana Survey dan Observasi</h3>
+      <p>
+        Rencana Survey dan Observasi Kebutuhan User di Puskesmas Dosay
+        <ul>
+          <li><strong>Siapa yang Akan Disurvey:</strong> Pasien, Dokter & Perawat, Kepala Puskesmas</li>
+          <li><strong>Bentuk Survey dan Observasi:</strong> Kuesioner, wawancara semi-terstruktur, observasi langsung</li>
+          <li><strong>Pertanyaan:</strong> Untuk pasien dan petugas, termasuk skala kepuasan, pengalaman pendaftaran, dan hambatan sistem.</li>
+        </ul>
+      </p>
+
+      <h3>Hasil Survey dan Observasi (Context of Use)</h3>
+      <p>
+        Deskripsi Permasalahan: Pendaftaran masih manual, menyebabkan antrean panjang dan kerumunan. Sistem online dirancang agar pasien mendaftar dari rumah dan memantau antrian real-time.
+      </p>
+
+      <h3>Persona</h3>
+      <p>
+        <strong>Persona 1 – Pasien Umum:</strong> Firmawan Saleh, 28 tahun, Pegawai Swasta.  
+        Tujuan: Mendapat pelayanan cepat tanpa kehabisan nomor antrian.
+        <br><img src="firman.png" alt="Firmawan">
+        <br>
+        <strong>Persona 2 – Pasien Wirausaha:</strong> Manen, 25 tahun, Wirausaha.  
+        Tujuan: Mendapat pelayanan cepat karena waktu terbatas. <br>
+        <img src="kris2.jpg" alt="Manen">
+      </p>
+
+      <h3>User Journey Map</h3>
+      <p>...</p>
+    </div>
+  </section>
+
+  <!-- User Requirement Specification Document -->
+  <section id="ursd" class="section">
+    <div class="container">
+      <h2>User Requirement Specification Document (URSD)</h2>
+      <h3>Functional Requirements</h3>
+      <table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Kode</th>
+      <th>Kebutuhan</th>
+      <th>Deskripsi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>F1</td>
+      <td>Pendaftaran Pasien</td>
+      <td>Sistem menyediakan fitur pendaftaran pasien dengan data identitas dan keluhan</td>
+    </tr>
+    <tr>
+      <td>F2</td>
+      <td>Penjadwalan Janji Temu</td>
+      <td>Pasien/petugas dapat membuat dan mengubah jadwal kunjungan berobat</td>
+    </tr>
+    <tr>
+      <td>F3</td>
+      <td>Input Data Konsultasi</td>
+      <td>Dokter dapat mencatat hasil konsultasi pasien</td>
+    </tr>
+    <tr>
+      <td>F4</td>
+      <td>Notifikasi Pengingat Jadwal</td>
+      <td>Sistem mengirim pengingat kunjungan kepada pasien</td>
+    </tr>
+    <tr>
+      <td>F5</td>
+      <td>Riwayat Kunjungan</td>
+      <td>Menyimpan riwayat kunjungan pasien sebagai referensi</td>
+    </tr>
+  </tbody>
+</table>
+      <h3>Non-Functional Requirements</h3>
+      <table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Kode</th>
+      <th>Aspek</th>
+      <th>Deskripsi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>N1</td>
+      <td>Performa</td>
+      <td>Sistem merespon input dalam waktu kurang dari 2 detik</td>
+    </tr>
+    <tr>
+      <td>N2</td>
+      <td>Usability</td>
+      <td>Antarmuka sederhana, mudah digunakan tanpa pelatihan teknis</td>
+    </tr>
+    <tr>
+      <td>N3</td>
+      <td>Keamanan Data</td>
+      <td>Data pasien disimpan aman dan hanya dapat diakses oleh petugas terkait</td>
+    </tr>
+    <tr>
+      <td>N4</td>
+      <td>Kompatibilitas</td>
+      <td>Bisa berjalan pada perangkat mobile dan desktop</td>
+    </tr>
+  </tbody>
+</table>
+      <h3>Requirement Prioritization</h3>
+      <table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Prioritas</th>
+      <th>Kode Kebutuhan</th>
+      <th>Keterangan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Must Have</td>
+      <td>F1, F2, F3</td>
+      <td>Fungsi utama sistem berobat yang wajib ada</td>
+    </tr>
+    <tr>
+      <td>Should Have</td>
+      <td>F4, F5</td>
+      <td>Mendukung kenyamanan dan pengelolaan lebih baik</td>
+    </tr>
+    <tr>
+      <td>Must Have</td>
+      <td>N1, N2, N3</td>
+      <td>Menjamin kelancaran dan keamanan penggunaan</td>
+    </tr>
+  </tbody>
+</table>
+      <h3>Success Criteria</h3>
+      <table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Aspek</th>
+      <th>Indikator</th>
+      <th>Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kepuasan Pengguna</td>
+      <td>Survei kemudahan penggunaan</td>
+      <td>≥ 85% merasa mudah digunakan</td>
+    </tr>
+    <tr>
+      <td>Kecepatan Respon</td>
+      <td>Waktu respon sistem</td>
+      <td>≤ 2 detik</td>
+    </tr>
+    <tr>
+      <td>Keamanan Data</td>
+      <td>Audit akses data</td>
+      <td>100% sesuai kebijakan privasi</td>
+    </tr>
+  </tbody>
+</table>
+      <h3>Task Model</h3>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Langkah</th>
+      <th>Aktivitas Pengguna</th>
+      <th>Respon Sistem</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Membuka aplikasi</td>
+      <td>Muncul layar utama dengan menu; sistem menampilkan opsi pendaftaran dan konsultasi</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Pasien daftar</td>
+      <td>Mengisi form pendaftaran; sistem menyimpan data pasien</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Menjadwalkan kunjungan</td>
+      <td>Memilih jadwal kunjungan; sistem menyimpan jadwal dan mengirim notifikasi</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Dokter membuka data</td>
+      <td>Melihat data pasien; sistem menampilkan riwayat dan keluhan pasien</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Dokter input konsultasi</td>
+      <td>Mencatat hasil konsultasi; sistem menyimpan hasil konsultasi</td>
+    </tr>
+  </tbody>
+</table>
+      <h3>Use Case Diagram</h3>
+      <img src="use case.jpg" alt="">
+      <h3>Site Map Aplikasi</h3>
+    </div>
+  </section>
+
+  <!-- Design -->
+  <section id="design" class="section">
+  <div class="container">
+    <h2>Design</h2>
+    <p>Bagian ini berisi sketsa awal, wireframe, dan prototype dari sistem yang kami kembangkan.</p>
+
+    <div class="design-buttons">
+      <a href="#" target="_blank" class="design-btn">Sketsa</a>
+      <a href="file:///C:/Users/yohan/Downloads/Project%20IMK%20prototype.pdf" target="_blank" class="design-btn">Wireframe</a>
+      <a href="file:///C:/Users/yohan/Downloads/Project%20IMK%20wireframe.pdf" target="_blank" class="design-btn">Prototype</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Evaluation -->
+  <section id="evaluation" class="section">
+    <div class="container">
+      <h2>Evaluation</h2>
+      <h3>Heuristic Evaluation</h3><p>...</p>
+      <h3>WEBuse Tool Evaluation</h3><p>...</p>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="team">
+        <div class="member">
+          <img src="WhatsApp Image 2025-10-03 at 12.23.55_b2ca9a05.jpg" alt="Nama Anggota">
+          <h4>Yohanes</h4>
+        </div>
+        <div class="member">
+          <img src="foto2.jpg" alt="Nama Anggota">
+          <h4>Yope</h4>
+        </div>
+        <div class="member">
+          <img src="firman.png" alt="Nama Anggota">
+          <h4>Firman</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
