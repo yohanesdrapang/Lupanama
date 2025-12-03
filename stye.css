@@ -193,3 +193,46 @@
   transform: translateY(-4px);
   box-shadow: 0 6px 14px rgba(0,0,0,0.20);
 }
+
+.design-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn-design {
+  padding: 10px 20px;
+  background: #0077ff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-design:hover {
+  background: #005fd4;
+}
+
+.design-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-design {
+  padding: 12px 25px;
+  background: #2563eb;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-design:hover {
+  background: #1e40af;
+  transform: translateY(-3px);
+}
